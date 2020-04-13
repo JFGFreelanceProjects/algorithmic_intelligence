@@ -1,0 +1,40 @@
+.al-teams{
+    /* display:flex; */
+}
+.al-teams>.team-animation{
+    position:absolute;
+    width:83.33333%;
+}
+.al-teams>.team-animation>svg {
+    margin-top: -18%;
+}
+
+@media(max-width:60rem){
+    /* .al-teams>.team-block{
+        margin-top:2.66667%
+    } */
+}
+@media(min-width:60rem){
+    .al-teams{
+        /* padding-top:2.33333%;
+        padding-right:41.66667%;
+        padding-bottom:1.33333%;
+        padding-left:8.33333% */
+    }
+    .al-teams>.team-animation{
+        left:10%;
+        /* width:25% */
+    }
+    /* .al-teams>.team-block{
+        min-height:100vh
+    } */
+}
+@media(min-width:80rem){
+    /* .expertise-teams{
+        padding-right:58.33333%
+    } */
+    .al-teams>.team-animation{
+        left:10%;
+        width:50%
+    }
+}
