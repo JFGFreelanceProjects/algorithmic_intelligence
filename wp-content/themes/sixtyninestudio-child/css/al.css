@@ -1,12 +1,9 @@
-.al-teams{
-    /* display:flex; */
-}
 .al-teams>.team-animation{
     position:absolute;
     width:83.33333%;
 }
 .al-teams>.team-animation>svg {
-    margin-top: -18%;
+    margin-top: 10%;
 }
 
 @media(max-width:60rem){
@@ -34,7 +31,7 @@
         padding-right:58.33333%
     } */
     .al-teams>.team-animation{
-        left:10%;
+        left:20%;
         width:50%
     }
 }
